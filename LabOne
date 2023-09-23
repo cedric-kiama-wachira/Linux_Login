@@ -1,0 +1,10 @@
+Find out using which command you can change the static hostname of your Linux system? hostnamectl
+If the apropos command does not work because your manual pages are not indexed, what command you can use to manually refresh these? sudo mandb
+You are trying to use ssh alex@localhost to log in through SSH. Your connection is refused. ssh has a command line option to show you the verbose output. That will show a lot more status messages and help you debug why this connection is failing. What is the correct option for that? (you need not to make ssh connection work at this point) ssh -v  alex@localhost
+You type host in the terminal. What keys do you press to see some suggestions about what you can type here? TAB TAB
+What section of the manual pages deals with System administration commands? Section 8  System administration commands (usually only for root)
+How many hidden files are there in /home/bob/data/ directory? ls -a /home/bob/data/ .  ..  .myfile1  .myfile2  data.txt TWO is the answer
+SSH into dev-host01 host from centos-host and create a blank file called /home/bob/myfile in dev-host01 host. You should be able to create the file using touch /home/bob/myfile command. ssh dev-host01 then touch myfile
+We are trying to run apropos ssh command to get some details about the commands related to ssh but we are getting this error: sudo mandb
+Using apropos command, find out the the configuration file for NFS mounts and save its name in /home/bob/nfs file. first you man man get the section. Then apropos -s 5 'NFS mount' then echo nfs.conf > /home/bob/nfs
+Some common commands for managing files and directories in linux include: touch rm rmdir cp and mv 
